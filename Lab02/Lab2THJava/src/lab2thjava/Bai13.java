@@ -17,9 +17,6 @@ import java.io.FileReader;
  */
 public class Bai13 {
 
-    /**
-     * @param args the command line arguments
-     */
     static void modifyFile(String filePath, String oldString, String newString) {
         File fileToBeModified = new File(filePath);
         String oldContent = " ";
@@ -54,5 +51,4 @@ public class Bai13 {
         modifyFile("D:\\HocKy2N4\\ThucHanhJava\\Lab2\\Lab2THJava\\text.txt", "OldString", "NewString");
         System.out.println("done");
     }
-    
 }

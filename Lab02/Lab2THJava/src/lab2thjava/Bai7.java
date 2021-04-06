@@ -10,10 +10,6 @@ package lab2thjava;
  * @author Admin
  */
 public class Bai7 {
-
-    /**
-     * @param args the command line arguments
-     */
     static int getPos(int i, int a[]){
         return a[i];
     }
@@ -27,7 +23,6 @@ public class Bai7 {
         }
     }
     public static void main(String[] args) {
-        // TODO code application logic here
         int a[]={4,7,9,12,7};
         output(a, 10);
     }

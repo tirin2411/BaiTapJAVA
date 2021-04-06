@@ -4,22 +4,12 @@
  * and open the template in the editor.
  */
 package lab2thjava;
-
 import java.io.IOException;
 import java.io.StringReader;
 import java.io.StringWriter;
 
-/**
- *
- * @author Admin
- */
 public class Bai8 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) throws IOException {
-        // TODO code application logic here
         StringWriter ost = new StringWriter();
         String s = "Xin chao, day la chuong trinh doc xuat chuoi";
         for(int i=0;i<s.length();i++)
@@ -35,8 +25,6 @@ public class Bai8 {
         s = sb1.toString();
             System.out.println("Chieu dai chuoi doc duoc: "+s.length());
             System.out.println("Day la chuoi doc duoc:"+s);
-            
         }
     }
-    
 }

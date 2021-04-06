@@ -11,17 +11,8 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-/**
- *
- * @author Admin
- */
 public class Bai9 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) throws FileNotFoundException, IOException {
-        // TODO code application logic here
         try(
             //tao moi 1 file abc.txt de ghi du lieu (output)
             FileOutputStream os = new FileOutputStream("abc.txt")){
@@ -44,5 +35,4 @@ public class Bai9 {
         File fl = new File("abc.txt");
         fl.delete();
     }
-    
 }

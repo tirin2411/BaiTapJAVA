@@ -25,8 +25,6 @@ public class Bai12 {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws FileNotFoundException, IOException {
-        // TODO code application logic here
-        
         try(
             FileOutputStream os = new FileOutputStream("Intdata.txt")){
             //file duoc tao luu cung vi tri file chuong trinh

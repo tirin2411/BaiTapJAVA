@@ -21,11 +21,7 @@ import java.util.StringTokenizer;
  */
 public class Bai15 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) throws IOException{
-        // TODO code application logic here
         String inputPath = "D:\\HocKy2N4\\ThucHanhJava\\Lab2\\Lab2THJava\\src\\lab2thjava\\dsnhanvien.dat";
         String thisLine;
         try {
@@ -39,7 +35,6 @@ public class Bai15 {
                 }
                 //tach chuoi
                 String[] sp = thisLine.split("SP: ");
-                //System.out.println(sp[1]);
                 String c = sp[1];
                 int i = Integer.parseInt(c);
                 //tim so sp lon nhat
@@ -55,5 +50,4 @@ public class Bai15 {
         } catch (IOException e) {
         }
     }
-    
 }

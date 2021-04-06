@@ -14,12 +14,7 @@ import java.util.Scanner;
  */
 public class Bai2 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-       
         Random rd = new Random(); 
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhap vao so n: ");
@@ -29,7 +24,6 @@ public class Bai2 {
         xuat(a);
         System.out.println("Cac so nguyen to trong mang: ");
         xuatsonguyento(a);
-
     }
     static void random(int a[], Random rd){
         for (int i=0;i<a.length;i++)
@@ -61,5 +55,4 @@ public class Bai2 {
         System.out.print(" ");
         }
     }
-    
 }

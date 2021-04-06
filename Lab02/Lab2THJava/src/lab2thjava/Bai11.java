@@ -14,17 +14,8 @@ import java.util.Random;
 import java.util.StringTokenizer;
 import static lab2thjava.Bai12.random;
 
-/**
- *
- * @author Admin
- */
 public class Bai11 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) throws FileNotFoundException, IOException {
-        // TODO code application logic here
         try(
             //tao moi 1 file abc.txt de ghi du lieu (output)
             FileOutputStream os = new FileOutputStream("databai11.txt")){
@@ -39,7 +30,6 @@ public class Bai11 {
                     os.write(s.charAt(j));
                 }
             }
-
         }
         try ( // mo 1 file abc.txt de doc vao chuong trinh (input)
                 FileInputStream is = new FileInputStream("databai11.txt")){
@@ -62,14 +52,9 @@ public class Bai11 {
                 System.out.println("Gia tri tong: "+Tong);
                 System.out.println("Trung binh cong: "+TBC);
         }
-        //xoa file neu co
-//        File fl = new File("data.txt");
-//        fl.delete();
     }
     static void random(float a[], Random rd){
         for (int i=0;i<a.length;i++)
             a[i] = rd.nextFloat();
- 
     }
-  
 }

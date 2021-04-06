@@ -12,12 +12,7 @@ import javax.swing.JOptionPane;
  * @author Admin
  */
 public class Bai6 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
         int n;
         try{
             n=Integer.parseInt(JOptionPane.showInputDialog(null,"Nhap so nguyen:",""));
@@ -29,5 +24,4 @@ public class Bai6 {
             System.out.println("Have good fun");
         }
     }
-    
 }

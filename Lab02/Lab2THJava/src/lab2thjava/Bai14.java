@@ -14,9 +14,6 @@ import java.util.Scanner;
  */
 public class Bai14 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) throws Exception{
         Scanner scanner = new Scanner(System.in);
         int soNhanVien = 10;
@@ -44,6 +41,5 @@ public class Bai14 {
         }
         pw.close();
         System.out.println("da ghi file xong");
-         
     }
 }

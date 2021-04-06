@@ -13,10 +13,6 @@ import java.util.StringTokenizer;
  * @author Admin
  */
 public class Bai4 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static String chuyenInHoa(String str){
         String s,strOutput;
         s= str.substring(0, 1);
@@ -39,5 +35,4 @@ public class Bai4 {
         String strInput= input.nextLine();
         System.out.println("Xau duoc chuan hoa la: "+chuanHoa(strInput));
     }
-    
 }

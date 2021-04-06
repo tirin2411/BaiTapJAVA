@@ -12,10 +12,6 @@ import java.util.Scanner;
  * @author Admin
  */
 public class NhanVien {
-
-    /**
-     * @param args the command line arguments
-     */
     private String MaNV, Hoten;
     private int Namsinh;
     private int SP;
@@ -79,5 +75,4 @@ public class NhanVien {
     public String toString() {
         return "Ma nhan vien: " + MaNV + ", Ho ten: " + Hoten+ ", Nam sinh: " + Namsinh +", SP: "+SP;
     }
-    
 }
